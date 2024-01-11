@@ -29,7 +29,7 @@ public interface Constants {
 	public final String GENDER_SHOLUD_ONE_FROM_MALE_FEMALE_OTHERS = "GENDER_SHOLUD_ONE_FROM_MALE_FEMALE_OTHERS";
 	public final String INVALID_GENDER = "INVALID_GENDER";
 	public final String DATE_PATTERN = "dd/MM/yyyy";
-	public final String EMAIL_REGEX = "^([_a-zA-Z0-9-]+(\\\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\\\.[a-zA-Z0-9-]+)*(\\\\.[a-zA-Z]{1,6}))?$";
+	public final String EMAIL_REGEX = "^([_a-zA-Z0-9-]+(.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(.[a-zA-Z0-9-]+)*(.[a-zA-Z]{1,6}))?$";
 	public final String INVALID_EMAIL = "INVALID_EMAIL";
 	public final String MAHINDRA = "Mahindra";
 	public final String SUCCESS = "success";
